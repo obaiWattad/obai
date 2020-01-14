@@ -38,7 +38,7 @@ public class CompilationEngineCHIHO {
         currentCommand = bufferedReader.readLine();
         symbolTable = new SymbolTable();
         falseCounter = 0;
-        trueCounter = 1;
+        trueCounter = 0;
     }
 
     // it transltes class.
